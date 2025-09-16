@@ -27,7 +27,7 @@
           },
           "style": "diamond",
           "leading_diamond": "\u256d\u2500\ue0b2",
-          "template": " \uf306 ",
+          "template": " {{ .Icon }} ",
           "type": "os"
         },
         {
