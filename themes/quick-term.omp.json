@@ -94,28 +94,6 @@
           "type": "executiontime"
         },
         {
-        "type": "sysinfo",
-        "style": "powerline",
-        "foreground": "#00d7af",
-        "background": "#0f1a1a",
-        "template": "  {{ .PhysicalPercentUsed }}% "
-        },
-        {
-        "type": "sysinfo",
-        "style": "powerline",
-        "foreground": "#af87ff",
-        "background": "#0f1a1a",
-        "properties": { "display": "memory" },
-        "template": "  {{ .MemoryUsed }}MB "
-        },
-        {
-        "type": "exitcode",
-        "style": "powerline",
-        "foreground": "#ff6b6b",
-        "background": "#0f1a1a",
-        "template": " {{ if eq .ExitCode 0 }}✓{{ else }}✗({{ .ExitCode }}){{ end }} "
-        },
-        {
           "background": "#d75f00",
           "foreground": "#f2f3f8",
           "properties": {
